@@ -8,11 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      boxShadow: {
+        'shadow': '4px 4px 0px 0px rgba(95, 106, 161, 0.10);',
       },
+      colors: {
+        links: "#4891FF",
+        primary: "#5F7D95",
+        button: "#4891FF",
+        buttonHover: "#4891F1",
+        "gray-ultra-light": "#f8f8f8",
+        "gray-ultra-dark": "#333",
+        "gray-medium": "#7b7b7b",
+        danger: "#7b7b7b",
+      },
+      width: {
+        input: "462px"
+      }
+
     },
   },
   plugins: [],
